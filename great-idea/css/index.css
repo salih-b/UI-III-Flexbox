@@ -63,4 +63,111 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from 
+yesterday here and start to refactor into flexbox */
+
+/*And IT BEGINS*/
+
+body{
+	padding: 2% 3%;
+}
+footer{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+.RH{
+	text-align: center;
+	padding: 2% 1% 5%;
+}
+.navigation{
+	display:flex;
+	justify-content: space-between;
+}
+nav a{
+	
+	padding: 0 4.6%;
+	color: gray;
+	text-decoration: none;
+}
+nav a:hover{
+	color:black;
+	text-decoration: none;
+}
+.logo{
+	width:20%;
+	padding-left: 4%;
+}
+#service{
+	padding-left: 0%;
+	padding-right: 4.6%;
+}
+.bigheader{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction:column;
+	text-align: center;
+}
+
+header img{
+	padding: 0% 1%;
+}
+header h1{
+	font-size: 60px;
+}
+header{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	justify-content: space-evenly;
+	margin-bottom: 6%;
+}
+
+.images{
+	
+	display:flex;
+	justify-content: center;
+	margin:3%;
+}
+
+
+button{
+	background-color: #fdffff;
+	color:black;
+	border:1px solid black;
+	padding: 1% 6%;
+}
+button:hover{
+	background-color: black;
+	color:#fdffff;
+	padding: 1% 6%;
+}
+.part1{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+	
+
+}
+.part2{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+.body{
+	
+	border-bottom: solid 1.5px black;
+	border-top: solid 1.5px black;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-bottom: 4%;
+
+}
+.overimg{
+	margin:0 2%;
+}
+.underimg{
+	margin:0 2%;
+}
