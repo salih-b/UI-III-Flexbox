@@ -171,3 +171,35 @@ button:hover{
 .underimg{
 	margin:0 2%;
 }
+.servicepagebottom{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+ul.servicepagelist{
+list-style-type: disc;
+margin-left: 3%;
+}
+.spbp{
+	margin: 3% 10%;
+	margin-left:0%;
+}
+.groupof3 section{
+	border: solid black 1px;
+background-color: rgb(204, 233, 190);
+padding:2%;
+margin: 7% 3%;
+}
+.bodysp{
+	display:flex;
+}
+.groupof3left section{
+	margin-left:0%;
+}
+.groupof3right section{
+	margin-right:0%;
+}
+.groupof3 section p{
+	margin: 5%;
+    margin-left: 0%;
+}
