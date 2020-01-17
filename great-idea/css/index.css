@@ -63,4 +63,151 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from 
+yesterday here and start to refactor into flexbox */
+
+/*And IT BEGINS*/
+
+body{
+	padding: 2% 3%;
+}
+footer{
+	display:flex;
+	justify-content: center;
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+.RH{
+	text-align: center;
+	padding: 2% 1% 5%;
+}
+.navigation{
+	display:flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+nav a{
+	
+	padding: 0 4.6%;
+	color: gray;
+	text-decoration: none;
+}
+nav a:hover{
+	color:black;
+	text-decoration: none;
+}
+
+}
+#service{
+	padding-left: 0%;
+	padding-right: 4.6%;
+}
+.bigheader{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction:column;
+	text-align: center;
+}
+
+.leftside{
+	font-size: 60px;
+}
+header{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	justify-content: space-evenly;
+	margin-bottom: 6%;
+}
+
+.images{
+	
+	display:flex;
+	justify-content: center;
+	margin:3%;
+}
+
+
+button{
+	background-color: #fdffff;
+	color:black;
+	border:1px solid black;
+	padding: 1% 6%;
+}
+button:hover{
+	background-color: black;
+	color:#fdffff;
+	padding: 1% 6%;
+}
+.part1{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+	
+
+}
+.part2{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+.body{
+	
+	border-bottom: solid 1.5px black;
+	border-top: solid 1.5px black;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	margin-bottom: 4%;
+
+}
+.overimg{
+	margin:0 2%;
+}
+.underimg{
+	margin:0 2%;
+}
+.servicepagebottom{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+ul.servicepagelist{
+list-style-type: disc;
+margin-left: 3%;
+}
+.spbp{
+	margin: 3% 10%;
+	margin-left:0%;
+}
+.groupof3 section{
+	border: solid black 1px;
+background-color: rgb(204, 233, 190);
+padding:2%;
+margin: 7% 3%;
+}
+.bodysp{
+	display:flex;
+}
+.groupof3left section{
+	margin-left:0%;
+}
+.groupof3right section{
+	margin-right:0%;
+}
+.groupof3 section p{
+	margin: 5%;
+    margin-left: 0%;
+}
+header.spheader{
+	display:flex;
+	flex-direction: column;
+/*align-content: ;*/
+margin:2% 0%;
+}
+header.spheader h1, header.spheader p, header.spheader img{
+	margin: 1.5% 0%;
+}
+header.spheader h1{
+	font-size:22px;
+}
